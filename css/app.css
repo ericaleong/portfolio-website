@@ -1,5 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Prompt&display=swap');
+
 body {
   margin: 0;
   padding: 0;
   background-color: lightpink;
+}
+
+header {
+  padding: 1em;
+  margin-left: 2em;
+}
+
+/* #hero-video {
+  z-index: -1;
+  position: absolute;
+  size: 100vh;
+} */
+
+.hey, .im-erica {
+  font-size: 38vh;
+  font-family: 'Prompt', sans-serif;
+  color: black;
+  -webkit-text-fill-color: lightpink; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: black;
+}
+
+.im-erica {
+  font-size: 30vh;
+}
+
+ul{
+  text-decoration: none;
+  list-style: none;
 }
