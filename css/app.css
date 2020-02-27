@@ -3,34 +3,72 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: lightpink;
+  background-color: #ECE5F0;
+  overflow-x: hidden;
 }
 
 header {
-  padding: 1em;
+  padding: 0;
   margin-left: 2em;
 }
 
-/* #hero-video {
-  z-index: -1;
-  position: absolute;
-  size: 100vh;
-} */
-
 .hey, .im-erica {
-  font-size: 38vh;
   font-family: 'Prompt', sans-serif;
-  color: black;
-  -webkit-text-fill-color: lightpink; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 5px;
-  -webkit-text-stroke-color: black;
+  color: #003B36;
+  -webkit-text-fill-color: #ECE5F0;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #003B36;
+}
+
+.hey {
+  font-size: calc(80px + (280 - 80) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .im-erica {
-  font-size: 30vh;
+  margin-bottom: 10vh;
+  font-size: calc(80px + (200 - 80) * ((100vw - 300px) / (1600 - 300)));
 }
 
-ul{
+.portrait {
+float: right;
+z-index: 1;
+margin-top: 5vh;
+
+}
+
+a{
+  margin: 0;
+  padding-left: 4vw;
+  padding-right: 100vw;
+
   text-decoration: none;
+
+  font-size: calc(70px + (100 - 70) * ((100vw - 300px) / (1600 - 300)));
+  font-family: 'Prompt', sans-serif;
+  color: black;
+  -webkit-text-fill-color: #ECE5F0;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #003B36;
+}
+
+a:hover {
+  background-color: #E98A15;
+  color: #003B36;
+  -webkit-text-fill-color: #003B36; 
+
+  /* transform: translateX(200px); */
+  transition: all 0.5s linear;
+}
+
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+
   list-style: none;
 }
