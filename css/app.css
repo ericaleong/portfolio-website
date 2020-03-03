@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Prompt|Taviraj&display=swap');
 
 body {
   margin: 0;
@@ -43,7 +43,8 @@ header {
 
 .portrait {
 float: right;
-margin-top: 5vh;
+margin-top: 10vh;
+margin-right: 3vw;
 width: 35%;
 }
 
