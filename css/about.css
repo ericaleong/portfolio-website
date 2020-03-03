@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Prompt|Taviraj&display=swap');
 
 body {
   margin: 0;
@@ -14,4 +14,48 @@ body {
   -webkit-text-fill-color: #ECE5F0;
   -webkit-text-stroke-width: 4px;
   -webkit-text-stroke-color: #003B36;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  margin: 0;
+
+  background-color: #59114D;
+}
+
+li {
+  list-style: none;
+  padding: 2em;
+
+  font-size: calc(12px + (20 - 12) * ((100vw - 300px) / (1600 - 300)));
+}
+
+li:hover {
+  background-color: #003B36;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Prompt', sans-serif;
+  color: #E98A15;
+  letter-spacing: 0.5vw;
+}
+
+nav a:hover {
+  color: #ECE5F0;
+}
+
+p {
+  padding: 5vw;
+  font-family: 'Taviraj', serif;
+}
+
+main a{
+  margin: 5vw;
+  display: block;
+  text-align: center;
 }
