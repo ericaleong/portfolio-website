@@ -7,6 +7,7 @@ body {
 }
 
 
+
 /* Header Style for all pages */
 .header {
   text-align: center;
@@ -17,6 +18,7 @@ body {
   -webkit-text-stroke-width: 4px;
   -webkit-text-stroke-color: #003B36;
 }
+
 
 
 /* Navigation Bar Style for all pages */
@@ -33,16 +35,17 @@ ul {
 li {
   list-style: none;
 
+  padding: 3vh 5vw;
+
   font-size: calc(12px + (20 - 12) * ((100vw - 300px) / (1600 - 300)));
 }
 
 li:hover {
   background-color: #003B36;
+  color: #ECE5F0;
 }
 
 a {
-  margin: 10vh 0vw;
-  padding: 10vh 5vw;
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Prompt', sans-serif;
@@ -55,6 +58,7 @@ nav a:hover {
 }
 
 
+
 /* Styles for any paragraph on any page */
 p {
   padding: 5vw;
@@ -64,12 +68,14 @@ p {
 }
 
 
+
 /* Styles for any link on any page */
 main a{
   margin: 5vw;
   display: block;
   text-align: center;
 }
+
 
 
 /* Projects page styles */
@@ -82,6 +88,13 @@ section {
 .project {
   padding: 4vw;
 }
+
+.project h1 {
+  color: #003B36;
+  font-family: 'Prompt', sans-serif;
+  text-transform: uppercase;
+}
+
 
 
 /* Contact page styles*/
@@ -123,6 +136,7 @@ input{
 textarea {
   padding: 0vh 8vw;
 }
+
 
 
 /* Footer Style */
