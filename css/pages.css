@@ -7,7 +7,7 @@ body {
 }
 
 
-/* Header Style */
+/* Header Style for all pages */
 .header {
   text-align: center;
   font-size: calc(80px + (150 - 80) * ((100vw - 300px) / (1600 - 300)));
@@ -19,7 +19,7 @@ body {
 }
 
 
-/* Navigation Bar Style */
+/* Navigation Bar Style for all pages */
 ul {
   display: flex;
   flex-direction: row;
@@ -53,9 +53,12 @@ nav a:hover {
   color: #ECE5F0;
 }
 
+
 /* Styles for any paragraph on any page */
 p {
   padding: 5vw;
+
+  text-align: center;
   font-family: 'Taviraj', serif;
 }
 
@@ -65,6 +68,59 @@ main a{
   margin: 5vw;
   display: block;
   text-align: center;
+}
+
+
+/* Projects page styles */
+section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project {
+  padding: 4vw;
+}
+
+
+/* Contact page styles*/
+.contact {
+  margin: 10vh 15vw;
+  background-color: #012622;
+
+  text-align: center;
+  font-family: 'Prompt', sans-serif;
+}
+
+.contact h1 {
+  padding-top: 5vh;
+  font-size: 25px;
+  color: #E98A15;
+}
+
+.contact p {
+  padding: 0;
+  color: #ECE5F0;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+label {
+  color: #ECE5F0;
+  text-transform: uppercase;
+}
+
+input{
+  padding: 2vh 10vw;
+}
+
+textarea {
+  padding: 0vh 8vw;
 }
 
 
