@@ -66,8 +66,12 @@ nav a:hover {
 
 /* Styles for any paragraph on any page */
 p {
-  padding: 5vw;
+  margin: 3vh;
+  padding: 3vw;
 
+  max-width: 450px;
+
+  color: #012622;
   text-align: center;
   font-family: 'Taviraj', serif;
 }
@@ -81,11 +85,47 @@ main a{
   text-align: center;
 }
 
+
+
 /* About pages styles */
-.skills li {
-  background-color: lightpink;
+.about {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
+.skills {
+  padding: 3vh 5vw;
+  margin: 3vh;
+
+  background-color: #F5C994;
+  color: #012622;
+}
+
+.skills h1 {
+  font-family: 'Prompt', sans-serif;
+  text-transform: uppercase;
+}
+
+.skills li {
+  list-style: none;
+
+  font-family: 'Taviraj', serif;
+}
+
+.skills ul {
+  padding: 0;
+}
+
+.portrait img {
+  margin: 3vh;
+  max-width: 300px;
+}
+
+.resume {
+  margin-top: 5vh;
+}
 
 
 /* Projects page styles */
@@ -103,6 +143,14 @@ section {
   color: #003B36;
   font-family: 'Prompt', sans-serif;
   text-transform: uppercase;
+}
+
+.project a{
+  letter-spacing: 0.2vw;
+}
+
+.project img {
+  object-fit: cover;
 }
 
 
