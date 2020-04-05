@@ -10,6 +10,7 @@ body {
 
 /* Header Style for all pages */
 .header {
+  padding-top: 10vh;
   text-align: center;
   font-size: calc(80px + (150 - 80) * ((100vw - 300px) / (1600 - 300)));
   font-family: 'Prompt', sans-serif;
@@ -22,7 +23,9 @@ body {
 
 
 /* Navigation Bar Style for all pages */
-ul {
+nav ul {
+  position:fixed;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -32,7 +35,7 @@ ul {
   background-color: #59114D;
 }
 
-li {
+nav li {
   list-style: none;
 
   padding: 3vh 5vw;
@@ -40,12 +43,14 @@ li {
   font-size: calc(12px + (20 - 12) * ((100vw - 300px) / (1600 - 300)));
 }
 
-li:hover {
+nav li:hover {
   background-color: #003B36;
   color: #ECE5F0;
 }
 
 a {
+  padding-bottom: 5vh;
+  margin-bottom: 5vh;
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'Prompt', sans-serif;
@@ -74,6 +79,11 @@ main a{
   margin: 5vw;
   display: block;
   text-align: center;
+}
+
+/* About pages styles */
+.skills li {
+  background-color: lightpink;
 }
 
 
@@ -141,9 +151,16 @@ textarea {
 
 /* Footer Style */
 footer {
-  padding: 3vh;
+  line-height: 80px;
+
+  bottom: 0px;
+  width: 100%;
+  height: 80px;
+  margin-left: 0;
+  margin-right: 0;
 
   background-color: #012622;
+  text-align: center;
   color: #E98A15;
   font-family: 'Prompt', sans-serif;
   font-size: 12px;
