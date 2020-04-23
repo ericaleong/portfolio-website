@@ -137,21 +137,34 @@ section {
 }
 
 .project {
+  display: flex;
+  flex-direction: column;
   padding: 4vw;
 }
 
 .project h1 {
+
   color: #003B36;
   font-family: 'Prompt', sans-serif;
   text-transform: uppercase;
 }
 
 .project a{
+  padding: 0;
+  margin: 0;
+
   letter-spacing: 0.2vw;
 }
 
 .project img {
   object-fit: cover;
+}
+
+.project p {
+  margin: 0;
+  padding: 0;
+
+  text-align: left;
 }
 
 
@@ -190,10 +203,23 @@ label {
 
 input{
   padding: 2vh 10vw;
+  
+  border: none;
+  
 }
 
-textarea {
-  padding: 0vh 8vw;
+#message {
+  /* padding: 0vh 8vw; */
+}
+
+.links {
+  display: block;
+  text-align: center;
+
+  margin-bottom: 5vh;
+
+  font-size: 40px;
+  color: #59114D;
 }
 
 
